@@ -30,7 +30,7 @@ env:
 
 jobs:
   build:
-    runs-on: debian-11
+    runs-on: debian-12
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
